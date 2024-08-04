@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1695828735560-122fc856de5a?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.overlay1{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(0, 0, 0));
+    padding: 1px;
+
+}
+.overlay1 h1{
+    color: lightpink;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 65vh;
+    /* border-color: white; */
+    border: 3px;
+    /* border-style: dotted; */
+
+
+}
+.overlay1 button{
+    background-color: transparent;
+    color: white;
+    border-style: dotted;
+    border-color: lightpink;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin-top: 5vh;
+    margin-left: 47vw;
+}
+.page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.page2 > h1{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 11vh;
+    color: lightpink;
+}
+/* .button2{} */
